@@ -1,6 +1,6 @@
 Tema: Sustav za rezervaciju letova
 
-Aplikacija omogućuje upravljanje entitetima i operacijama specifičnim za područje ""Sustav za rezervaciju letova"". 
+Aplikacija omogućuje upravljanje entitetima i operacijama specifičnim za područje "Sustav za rezervaciju letova". 
 Entiteti (npr. User, Booking, Record, Item) moraju biti u paketu entity, dok se glavna klasa nalazi u paketu app. 
 Treba definirati apstraktnu klasu (npr. Person) i sučelja (npr. Reservable, Schedulable) prema potrebi domene. 
 Jedan od entiteta mora koristiti builder pattern za konstrukciju objekata.
@@ -17,4 +17,4 @@ te prikaz povijesti promjena učitanih iz binarne datoteke.
 Baza podataka mora sadržavati tablice povezane s entitetima aplikacije te klasu za konekciju, izvršavanje upita i zatvaranje konekcije. 
 Niti se koriste za paralelne procese (npr. istovremeno osvježavanje podataka i spremanje promjena), uz sinkronizaciju dijeljenih resursa.
 
-Sve klase moraju biti kraće od 200 linija koda, bez SonarQube problema i s Javadoc dokumentacijom."
+Sve klase moraju biti kraće od 200 linija koda, bez SonarQube problema i s Javadoc dokumentacijom.
