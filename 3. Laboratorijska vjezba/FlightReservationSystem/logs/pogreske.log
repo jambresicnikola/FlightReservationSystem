@@ -1,0 +1,10 @@
+2025-11-09 22:27:55,693 INFO [main] h.j.f.a.Main [Main.java:16] Application has started.
+2025-11-09 22:27:55,732 INFO [main] h.j.f.a.Main [Main.java:28] User input has started...
+2025-11-09 22:28:01,420 ERROR [main] h.j.f.u.InputData [InputData.java:44] null
+java.util.InputMismatchException: null
+	at java.base/java.util.Scanner.throwFor(Scanner.java:964)
+	at java.base/java.util.Scanner.next(Scanner.java:1619)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2284)
+	at java.base/java.util.Scanner.nextInt(Scanner.java:2238)
+	at hr.java.flightreservationsystem.util.InputData.enterUser(InputData.java:31)
+	at hr.java.flightreservationsystem.app.Main.main(Main.java:41)
